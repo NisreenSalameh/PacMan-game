@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pac-Man Game</title>
+</head>
+<body id="canvas-container">
+    <canvas id="canvas"></canvas>
+    <div id="first-div">
+        <img id="pacman-animations" src="images/pacman-animations.gif" alt="">
+        <img id="ghosts" src="images/ghosts.png" alt="">
+    </div>
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="modalScore">0</span></p>
+            <button id="retryButton">Retry</button>
+        </div>
+    </div>
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <h2>Congratulations, You Won!</h2>
+            <p>You have eaten all the food!</p>
+            <button id="playAgainButton">Play Again</button>
+        </div>
+    </div>
+    
+    
+
+    <script src="js/ghost.js"></script>    
+    <script src="js/pacman.js"></script> 
+    <script src="js/game.js"></script> 
+</body>
+</html>
