@@ -4,6 +4,7 @@
 
 This is a simple implementation of the classic Pac-Man game using HTML5 and JavaScript. The game utilizes the HTML canvas element for rendering graphics.
 
+
 ## How to play
 - Use the arrow keys (up, down, left, right) to navigate Pac-Man through the maze.
 - Eat all the food items to win the game. Beware of the ghosts!
@@ -19,6 +20,9 @@ This is a simple implementation of the classic Pac-Man game using HTML5 and Java
 
 ## Getting Started
 1. Clone or download the repository to your local machine.
+```
+git clone https://github.com/NisreenSalameh/PacMan-game.git
+```
 2. Open the index.html file in a modern web browser.
 3. Use arrow keys to control Pac-Man and navigate through the maze.
 4. Enjoy the game.
@@ -29,11 +33,16 @@ You can customize the game by modifying the following:
 - Ghost behavior: Adjust ghost movement in the `ghost.js` file.
 - Game difficulty: Modify game constants in the `game.js` file to make the game easier or harder.
 
-## Credits
-- This game is built using HTML5 and JavaScript.
-- Pac-Man is a classic arcade game created by Namco.
+This game was published using [GitHub Pages](https://pages.github.com/).
+
+Explore the ArtisticAlchemy Landing Page: [https://nisreensalameh.github.io/PacMan-game/](https://nisreensalameh.github.io/PacMan-game/)
+
+
+# Contributors
+- Nisreen Salameh - Developer and Designer
 
 
 ---
-
-Feel free to contribute to the project, report any issues, or add new features! Enjoy the nostalgia of playing Pac-Man.
+> [!NOTE]
+> Feel free to contribute to the project, report any issues, or add new features! 
+Enjoy the nostalgia of playing Pac-Man.
